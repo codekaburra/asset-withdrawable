@@ -10,7 +10,7 @@ contract AssetWithdrawable is Ownable {
     /**
      * @dev Withdraw ETH or ERC20 from this smart contract address
      * @param _token ERC20 address , 0 for ETH
-     * 
+     *
      * @notice Can only be called by the owner.
      */
     function withdrawAsset(address _token, uint256 _amount) external payable onlyOwner {

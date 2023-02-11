@@ -2,4 +2,3 @@
 /* tslint:disable */
 /* eslint-disable */
 export { MockAssetWithdrawable__factory } from "./MockAssetWithdrawable__factory";
-export { MockERC20__factory } from "./MockERC20__factory";

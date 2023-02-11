@@ -2,4 +2,3 @@
 /* tslint:disable */
 /* eslint-disable */
 export type { MockAssetWithdrawable } from "./MockAssetWithdrawable";
-export type { MockERC20 } from "./MockERC20";

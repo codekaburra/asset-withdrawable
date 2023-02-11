@@ -33,6 +33,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.AssetWithdrawable__factory>;
     getContractFactory(
+      name: "MockAssetWithdrawable",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.MockAssetWithdrawable__factory>;
+    getContractFactory(
       name: "MockERC20",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MockERC20__factory>;
@@ -62,6 +66,11 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.AssetWithdrawable>;
+    getContractAt(
+      name: "MockAssetWithdrawable",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.MockAssetWithdrawable>;
     getContractAt(
       name: "MockERC20",
       address: string,

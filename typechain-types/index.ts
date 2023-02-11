@@ -16,5 +16,7 @@ export type { IERC20 } from "./@openzeppelin/contracts/token/ERC20/IERC20";
 export { IERC20__factory } from "./factories/@openzeppelin/contracts/token/ERC20/IERC20__factory";
 export type { AssetWithdrawable } from "./contracts/AssetWithdrawable";
 export { AssetWithdrawable__factory } from "./factories/contracts/AssetWithdrawable__factory";
+export type { MockAssetWithdrawable } from "./contracts/mock/MockAssetWithdrawable";
+export { MockAssetWithdrawable__factory } from "./factories/contracts/mock/MockAssetWithdrawable__factory";
 export type { MockERC20 } from "./contracts/mock/MockERC20";
 export { MockERC20__factory } from "./factories/contracts/mock/MockERC20__factory";
